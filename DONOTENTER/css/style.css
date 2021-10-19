@@ -1,0 +1,27 @@
+h1 {
+  color: red;
+  background-color: black;
+  text-align: center;
+  padding: 50px;
+}
+
+@keyframes change-my-color {
+  from {
+    color: red;
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+  }
+  to {
+    color: red;
+    background-color: white;
+    text-align: center;
+    padding: 100px;
+  }
+}
+
+.color-animation {
+  animation-name: change-my-color;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
